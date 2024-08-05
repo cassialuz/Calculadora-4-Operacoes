@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Poppins, sans-serif;
 }
 
 body {
-    background-color: burlywood;
+    background-color: #fff7bd;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,15 +17,15 @@ body {
 #calc {
     width: 400px;
     padding: .5em;
-    background-color: rgb(129, 129, 129);
+    background-color: #95cfb7;
     color: black;
     flex-direction: column;
     border-radius: 4px;
 }
 
 #calc h3 {
-    font-size: .8em;
-    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    color: #fff;
     font-weight: 700;
 }
 
@@ -70,8 +70,8 @@ body {
 }
 
 #buttons-container button:hover {
-    background-color: rgb(214, 214, 214);
-    border-color: rgb(46, 57, 74);
+    background-color: #fad3b2;
+    border-color: #ffba7f;
 }
 
 #buttons-container #equal-btn {
@@ -80,5 +80,5 @@ body {
 }
 
 #buttons-container #equal-btn:hover {
-    background-color: rgb(75, 142, 200);
+    background-color: #bfcff7;
 }
